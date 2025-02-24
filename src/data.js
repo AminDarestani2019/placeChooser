@@ -57,6 +57,19 @@ import Shamsolemare from './assets/Iran/Shamsolemare.jpg';
 import tabatabai from './assets/Iran/tabatabai.jpg';
 import zarAbadKavir from './assets/Iran/zarAbadKavir.jpg';
 
+import BazarSonnatiKermanshah from './assets/Iran/BazarSonnatiKermanshah.jpg';
+import Bistoon2 from './assets/Iran/Bistoon2.jpg';
+import ghareperav from './assets/Iran/ghareperav.jpg';
+import MasjedeEmadoddule from './assets/Iran/MasjedeEmadoddule.jpg';
+import MasjedeShafei from './assets/Iran/MasjedeShafei.jpg';
+import MojassameHerkul from './assets/Iran/MojassameHerkul.jpg';
+import NaghsheMehrdadAshkani from './assets/Iran/NaghsheMehrdadAshkani.jpg';
+import SarabeNiloofar from './assets/Iran/SarabeNiloofar.jpg';
+import TagheBostan from './assets/Iran/TagheBostan.jpg';
+import TalabeHashilan from './assets/Iran/TalabeHashilan.jpg';
+import TekyeBiglarBeigi from './assets/Iran/TekyeBiglarBeigi.jpg';
+import TekyeEmadolmolk from './assets/Iran/TekyeEmadolmolk.jpg';
+
 export const AVAILABLE_PLACES = [
   {
     id: 'p1',
@@ -639,6 +652,126 @@ export const AVAILABLE_PLACES = [
     },
     lat: 33.8000,
     lon: 56.2000,
+  },
+  {
+    id: 'p59',
+    title: 'Bazar Sonnati Kermanshah',
+    image: {
+      src: BazarSonnatiKermanshah,
+      alt: 'A view of Bazar Sonnati in Kermanshah, Iran',
+    },
+    lat: 34.3140,
+    lon: 47.0694,
+  },
+  {
+    id: 'p60',
+    title: 'Bistoon',
+    image: {
+      src: Bistoon2,
+      alt: 'The Bistoon site, an ancient Persian monument in Iran',
+    },
+    lat: 34.3958,
+    lon: 46.2619,
+  },
+  {
+    id: 'p61',
+    title: 'Ghareperav',
+    image: {
+      src: ghareperav,
+      alt: 'Ghareperav historical site in Iran',
+    },
+    lat: 33.7045,
+    lon: 46.7175,
+  },
+  {
+    id: 'p62',
+    title: 'Masjede Emadoddule',
+    image: {
+      src: MasjedeEmadoddule,
+      alt: 'Masjede Emadoddule, a mosque in Iran',
+    },
+    lat: 34.3140,
+    lon: 47.0694,
+  },
+  {
+    id: 'p63',
+    title: 'Masjede Shafei',
+    image: {
+      src: MasjedeShafei,
+      alt: 'Masjede Shafei, a mosque in Kermanshah, Iran',
+    },
+    lat: 34.3140,
+    lon: 47.0694,
+  },
+  {
+    id: 'p64',
+    title: 'Mojassame Herkul',
+    image: {
+      src: MojassameHerkul,
+      alt: 'Mojassame Herkul, the statue of Hercules in Kermanshah, Iran',
+    },
+    lat: 34.3980,
+    lon: 46.2395,
+  },
+  {
+    id: 'p65',
+    title: 'Naghshe Mehrdad Ashkani',
+    image: {
+      src: NaghsheMehrdadAshkani,
+      alt: 'A historical site of Mehrdad Ashkani in Kermanshah, Iran',
+    },
+    lat: 34.4100,
+    lon: 46.5100,
+  },
+  {
+    id: 'p66',
+    title: 'Sarabe Niloofar',
+    image: {
+      src: SarabeNiloofar,
+      alt: 'Sarabe Niloofar, a famous natural spring in Kermanshah, Iran',
+    },
+    lat: 34.4450,
+    lon: 46.5325,
+  },
+  {
+    id: 'p67',
+    title: 'Taghe Bostan',
+    image: {
+      src: TagheBostan,
+      alt: 'Taghe Bostan, ancient Persian rock reliefs in Kermanshah, Iran',
+    },
+    lat: 34.4355,
+    lon: 46.2289,
+  },
+  {
+    id: 'p68',
+    title: 'Talabe Hashilan',
+    image: {
+      src: TalabeHashilan,
+      alt: 'Talabe Hashilan, a historical site in Kermanshah, Iran',
+    },
+    lat: 34.3510,
+    lon: 47.0212,
+  },
+  {
+    id: 'p69',
+    title: 'Tekye Biglar Beigi',
+    image: {
+      src: TekyeBiglarBeigi,
+      alt: 'Tekye Biglar Beigi, an ancient site in Kermanshah, Iran',
+    },
+    lat: 34.3320,
+    lon: 46.9454,
+  },
+  {
+    id: 'p70',
+    title: 'Tekye Emadolmolk',
+    image: {
+      src: TekyeEmadolmolk,
+      alt: 'Tekye Emadolmolk, a historical site in Iran',
+    },
+    lat: 34.3140,
+    lon: 47.0694,
   },
 
 ];
