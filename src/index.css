@@ -4,6 +4,54 @@
   box-sizing: border-box;
 }
 
+/* Media query for mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+  /* برای header */
+  header h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  header img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* برای کادرهای places-category */
+  .places-category {
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  /* تنظیم grid در places */
+  .places {
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  }
+
+  .place-item {
+    margin-bottom: 1rem;
+  }
+
+  .place-item img {
+    height: 10rem;
+  }
+
+  /* برای دکمه‌ها */
+  .button {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .button-text {
+    font-size: 0.9rem;
+  }
+
+  /* تنظیمات Modal */
+  .modal {
+    min-width: 20rem;
+  }
+}
+
 html {
   font-family: 'Bricolage Grotesque', sans-serif;
   line-height: 1.5;
