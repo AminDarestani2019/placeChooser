@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Places({title,places,fallbackText,onSelectPlace}){
     return (
         <section className="places-category">
@@ -18,3 +20,10 @@ export default function Places({title,places,fallbackText,onSelectPlace}){
         </section>
     );
 }
+
+Places.propTypes = {
+    title: PropTypes.func.isRequired,
+    places: PropTypes.func.isRequired,
+    fallbackText: PropTypes.func.isRequired,
+    onSelectPlace: PropTypes.func.isRequired
+};
